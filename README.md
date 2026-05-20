@@ -1,177 +1,307 @@
-# 🚀 Machine Learning Journey
+# 🚀 Machine Learning & AI Journey
 
-> Documenting my journey of learning, practicing, and building in Machine Learning, Data Science, and AI.
+> Documenting my journey of learning, experimenting, and building projects in Machine Learning, Data Science, AI, SQL Analytics, and Real-World ML Systems.
 
 ---
 
-## 📌 About This Repository
+# 📌 About This Repository
 
 Welcome to my Machine Learning repository!
 
-This repository contains everything I’m learning and building in the field of:
-- Machine Learning
-- Data Analysis
-- Data Visualization
-- Python Libraries
-- Statistics & Mathematics
-- Web Scraping
-- SQL & Analytics
-- Mini Projects
+This repository contains my complete hands-on learning journey across:
 
-I’ll continuously update this repository as I explore more concepts and build real-world applications.
+* Machine Learning
+* Data Analysis
+* Data Visualization
+* Mathematics & Statistics
+* SQL Analytics
+* Web Scraping
+* Supervised Learning
+* Real-world ML Practice
 
----
-
-## 🛠️ Tech Stack
-
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- SQL
-- BeautifulSoup
-- Jupyter Notebook
+I continuously update this repository as I learn new concepts, implement algorithms, and build projects.
 
 ---
 
-## 📂 Repository Structure
+# 🛠️ Tech Stack & Tools
+
+## 💻 Languages
+
+* Python
+* SQL
+
+## 📚 Libraries & Frameworks
+
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+* BeautifulSoup
+* Requests
+
+## 🧰 Tools
+
+* Jupyter Notebook
+* VS Code
+* Git & GitHub
+
+---
+
+# 📂 Repository Structure
 
 ```bash
 Machine_Learning/
 │
-├── numpy/
-│   └── numpy.ipynb
+├── activities/
+│   ├── scrap_data/
+│   ├── scraping_activity.ipynb
+│   ├── scraping_activity2.ipynb
+│   ├── scraping_activity3.ipynb
+│   └── scraping_activity4.ipynb
 │
-├── pandas/
-│   ├── pandas.ipynb
-│   ├── employee_data.csv
-│   ├── employee_data.json
-│   ├── globalAirQuality.csv
-│   ├── raw_data.csv
-│   └── sorted_data.csv
-│
-├── matplotlib/
-│   ├── matplotlib.ipynb
-│   └── 1-matplotlib_tutorial.ipynb
-│
-├── seaborn/
-│   ├── seaborn.ipynb
-│   └── seaborn_tutorial.ipynb
+├── data_collection/
+│   ├── cleaned_data/
+│   │   └── clean1.csv
+│   │
+│   ├── scraped_data/
+│   │   └── data1.html
+│   │
+│   ├── beautifulsoup.ipynb
+│   ├── index.html
+│   ├── requests.ipynb
+│   └── web_scraping.ipynb
 │
 ├── maths/
 │   ├── calculus.ipynb
 │   └── probability_dist.ipynb
 │
-├── data_collection/
-│   ├── requests.ipynb
-│   ├── web_scraping.ipynb
-│   └── index.html
+├── matplotlib/
+│   ├── 1-matplotlib_tutorial.ipynb
+│   └── matplotlib.ipynb
 │
-├── mini_project/
-│   ├── data/
-│   ├── cleaning_and_visualization.ipynb
-│   └── webscraping.ipynb
+├── numpy/
+│   └── numpy.ipynb
 │
-├── streaming_analytics/
-│   ├── dataset/
-│   ├── analytics_queries.sql
-│   ├── schema.sql
-│   └── README.md
+├── pandas/
+│   ├── employee_data.csv
+│   ├── employee_data.json
+│   ├── globalAirQuality.csv
+│   ├── pandas.ipynb
+│   ├── raw_data.csv
+│   └── sorted_data.csv
 │
 ├── practice/
 │   ├── store_data.json
 │   └── thinking_data.ipynb
+│
+├── scratch_implementation/
+│   ├── knn.ipynb
+│   ├── linear_reg.ipynb
+│   └── logistic_reg.ipynb
+│
+├── seaborn/
+│   ├── seaborn.ipynb
+│   └── seaborn_tutorial.ipynb
+│
+├── streaming_analytics/
+│   ├── dataset/
+│   ├── analytics_queries.sql
+│   ├── README.md
+│   └── schema.sql
+│
+├── Supervised_ML/
+│   ├── elasticNet.ipynb
+│   ├── employee_turnover.csv
+│   ├── Employee_turnover.ipynb
+│   ├── heart.csv
+│   ├── house_price_prediction.ipynb
+│   ├── HousePricePrediction.csv
+│   ├── insurance.csv
+│   ├── iris_flower.ipynb
+│   ├── Iris.csv
+│   ├── knn.ipynb
+│   ├── lasso_regression.ipynb
+│   ├── linear_regression.ipynb
+│   ├── logistic_regression.ipynb
+│   ├── naive_bayes.ipynb
+│   └── ridge_regression.ipynb
 │
 └── README.md
 ```
 
 ---
 
-## 📚 Learning Progress
+# 📚 Learning Progress
 
-### ✅ Completed / Practiced
+## ✅ Completed / Practiced
 
-- [x] Python Basics
-- [x] NumPy Fundamentals
-- [x] Pandas Data Analysis
-- [x] Data Cleaning
-- [x] Data Visualization
-- [x] Matplotlib
-- [x] Seaborn
-- [x] Web Scraping Basics
-- [x] Requests & BeautifulSoup
-- [x] SQL Analytics Basics
-- [x] Probability Basics
-- [x] Calculus Basics
+### Python & Data Handling
 
----
+* [x] Python Fundamentals
+* [x] NumPy
+* [x] Pandas
+* [x] Data Cleaning
 
-## 🔥 Featured Work
+### Data Visualization
 
-### 📊 Streaming Analytics Project
-- Worked with SQL analytics queries
-- Schema design and dataset analysis
-- Practiced data aggregation and insights generation
+* [x] Matplotlib
+* [x] Seaborn
+* [x] Exploratory Data Analysis (EDA)
 
-### 🌐 Web Scraping Practice
-- Extracted data using Requests and BeautifulSoup
-- Worked with HTML parsing and data collection
+### Web Scraping & Data Collection
 
-### 📈 Data Cleaning & Visualization
-- Cleaned raw datasets
-- Performed exploratory data analysis (EDA)
-- Visualized datasets using Matplotlib and Seaborn
+* [x] Requests
+* [x] BeautifulSoup
+* [x] HTML Parsing
+* [x] Data Extraction
 
----
+### Mathematics & Statistics
 
-## 🎯 Goals
+* [x] Probability Basics
+* [x] Calculus Basics
 
-- Build strong Machine Learning fundamentals
-- Master Data Analysis & Visualization
-- Learn Machine Learning Algorithms
-- Explore Deep Learning & LLMs
-- Build real-world AI projects
-- Prepare for FAANG-level internships
+### SQL & Analytics
 
----
+* [x] SQL Queries
+* [x] Streaming Analytics
+* [x] Data Aggregation
 
-## 🚀 Future Roadmap
+### Machine Learning
 
-- [ ] Scikit-Learn
-- [ ] Machine Learning Algorithms
-- [ ] Feature Engineering
-- [ ] Model Evaluation
-- [ ] Deep Learning
-- [ ] Computer Vision
-- [ ] NLP
-- [ ] Transformers & LLMs
-- [ ] MLOps
-- [ ] End-to-End ML Projects
+* [x] Linear Regression
+* [x] Logistic Regression
+* [x] KNN
+* [x] Ridge Regression
+* [x] Lasso Regression
+* [x] ElasticNet
+* [x] Naive Bayes
 
 ---
 
-## 📖 Currently Learning
+# 🔥 Featured Work
 
-- Data Analysis
-- Visualization
-- SQL Analytics
-- Statistics & Mathematics for ML
+## 📊 Streaming Analytics Project
+
+* Worked with SQL analytics queries
+* Designed database schemas
+* Performed aggregation and analytical queries
+* Generated insights from structured datasets
 
 ---
 
-## 🤝 Contributions
+## 🤖 Supervised Machine Learning
+
+Implemented multiple supervised learning algorithms using Scikit-Learn:
+
+* Linear Regression
+* Logistic Regression
+* Ridge Regression
+* Lasso Regression
+* ElasticNet
+* KNN
+* Naive Bayes
+
+Worked on:
+
+* Data preprocessing
+* Model training
+* Prediction pipelines
+* Performance evaluation
+
+---
+
+## 🌐 Web Scraping & Data Collection
+
+* Extracted data using Requests & BeautifulSoup
+* Parsed HTML files
+* Built basic scraping workflows
+* Cleaned and organized collected data
+
+---
+
+## 📈 Data Analysis & Visualization
+
+* Cleaned raw datasets
+* Performed exploratory data analysis
+* Built visualizations using Matplotlib & Seaborn
+* Analyzed real-world datasets
+
+---
+
+# 🎯 Goals
+
+* Build strong Machine Learning fundamentals
+* Master Data Analysis & Visualization
+* Learn Advanced Machine Learning
+* Explore Deep Learning & LLMs
+* Build real-world AI systems
+* Learn MLOps & Deployment
+* Prepare for FAANG-level internships
+
+---
+
+# 🚀 Future Roadmap
+
+## 🔹 Machine Learning
+
+* [ ] Feature Engineering
+* [ ] Model Evaluation
+* [ ] Hyperparameter Tuning
+* [ ] Ensemble Learning
+
+## 🔹 Deep Learning
+
+* [ ] Neural Networks
+* [ ] CNNs
+* [ ] RNNs
+* [ ] Transformers
+
+## 🔹 AI & LLMs
+
+* [ ] NLP
+* [ ] LangChain
+* [ ] RAG Systems
+* [ ] Agentic AI
+
+## 🔹 Deployment & MLOps
+
+* [ ] FastAPI
+* [ ] Docker
+* [ ] MLflow
+* [ ] CI/CD for ML
+
+---
+
+# 📖 Currently Learning
+
+* Supervised Machine Learning
+* Statistics for Machine Learning
+* SQL Analytics
+* Data Visualization
+* Model Building & Evaluation
+
+---
+
+# 🤝 Contributions
 
 This repository is mainly for learning and practice, but suggestions and improvements are always welcome.
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-**Piyush Thakur**
+## Piyush Thakur
+
+Passionate about:
+
+* Artificial Intelligence
+* Machine Learning
+* Data Science
+* Real-time AI Systems
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
-If you like this repository, consider giving it a ⭐ and following my learning journey!
+If you like this repository, consider giving it a ⭐ and following my learning journey on GitHub!
