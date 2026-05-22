@@ -181,14 +181,6 @@ Machine_Learning/
 
 # 🔥 Featured Work
 
-## 📊 Streaming Analytics Project
-
-* Worked with SQL analytics queries
-* Designed database schemas
-* Performed aggregation and analytical queries
-* Generated insights from structured datasets
-
----
 
 ## 🤖 Supervised Machine Learning
 
