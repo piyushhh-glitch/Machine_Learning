@@ -111,21 +111,32 @@ Machine_Learning/
 │   └── schema.sql
 │
 ├── Supervised_ML/
-│   ├── elasticNet.ipynb
-│   ├── employee_turnover.csv
-│   ├── Employee_turnover.ipynb
-│   ├── heart.csv
-│   ├── house_price_prediction.ipynb
-│   ├── HousePricePrediction.csv
-│   ├── insurance.csv
-│   ├── iris_flower.ipynb
-│   ├── Iris.csv
-│   ├── knn.ipynb
-│   ├── lasso_regression.ipynb
-│   ├── linear_regression.ipynb
-│   ├── logistic_regression.ipynb
-│   ├── naive_bayes.ipynb
-│   └── ridge_regression.ipynb
+│   │
+│   ├── algorithms/
+│   │   ├── elasticNet.ipynb
+│   │   ├── Employee_turnover.ipynb
+│   │   ├── house_price_prediction.ipynb
+│   │   ├── iris_flower.ipynb
+│   │   ├── knn.ipynb
+│   │   ├── lasso_regression.ipynb
+│   │   ├── linear_regression.ipynb
+│   │   ├── logistic_regression.ipynb
+│   │   ├── naive_bayes.ipynb
+│   │   └── ridge_regression.ipynb
+│   │
+│   ├── scratch_implementation/
+│   │   ├── knn.ipynb
+│   │   ├── linear_reg.ipynb
+│   │   └── logistic_reg.ipynb
+│   │
+│   ├── datasets/
+│   │   ├── employee_turnover.csv
+│   │   ├── heart.csv
+│   │   ├── HousePricePrediction.csv
+│   │   ├── insurance.csv
+│   │   └── Iris.csv
+│   │
+│   └── projects/
 │
 └── README.md
 ```
