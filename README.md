@@ -1,6 +1,6 @@
 # 🚀 Machine Learning & AI Journey
 
-> Documenting my journey of learning, experimenting, and building projects in Machine Learning, Data Science, AI, SQL Analytics, and Real-World ML Systems.
+> Documenting my journey of learning, experimenting, and building projects in Machine Learning, Data Science, AI, and Real-World ML Systems.
 
 ---
 
@@ -13,7 +13,6 @@ This repository contains my complete hands-on learning journey across:
 * Machine Learning (Supervised & Unsupervised)
 * Data Analysis & Visualization
 * Mathematics & Statistics
-* SQL Analytics
 * Web Scraping & Data Collection
 * Scratch Implementations of ML Algorithms
 * Real-World ML Projects
@@ -65,7 +64,7 @@ HTTP library for Python. Used for making web requests to fetch HTML pages and AP
 ```bash
 Machine_Learning/
 │
-├── activities/
+├── web_scraping/
 │   ├── scrap_data/
 │   ├── scraping_activity.ipynb
 │   ├── scraping_activity2.ipynb
@@ -91,12 +90,13 @@ Machine_Learning/
 │   └── matplotlib.ipynb
 │
 ├── mini_project/
-│   └── data/
-│       ├── games.csv
-│       ├── games.json
-│       └── items.html
+│   ├── data/
+│   │   ├── games.csv
+│   │   ├── games.json
+│   │   └── items.html
 │   ├── cleaning_and_visualization.ipynb
-│   └── webscraping.ipynb
+│   ├── webscraping.ipynb
+│   └── README.md
 │
 ├── numpy/
 │   └── numpy.ipynb
@@ -109,19 +109,9 @@ Machine_Learning/
 │   ├── raw_data.csv
 │   └── sorted_data.csv
 │
-├── practice/
-│   ├── store_data.json
-│   └── thinking_data.ipynb
-│
 ├── seaborn/
 │   ├── seaborn.ipynb
 │   └── seaborn_tutorial.ipynb
-│
-├── streaming_analytics/
-│   ├── dataset/
-│   ├── analytics_queries.sql
-│   ├── README.md
-│   └── schema.sql
 │
 ├── Supervised_ML/
 │   ├── algorithms/
@@ -268,13 +258,8 @@ Built core algorithms from scratch using only NumPy to understand the math behin
 ## 💳 CreditWise Loan System (`Supervised_ML/projects/CreditWise_Loan_System/`)
 End-to-end ML project for predicting loan approval. Covers data preprocessing, feature engineering, model training, and evaluation.
 
----
-
-# 📊 SQL & Streaming Analytics (`streaming_analytics/`)
-
-* Designed schema for streaming data (`schema.sql`)
-* Wrote complex analytical queries for aggregations, trends, and KPIs (`analytics_queries.sql`)
-* Practiced real-world SQL patterns on event-driven data
+## 🛒 E-Commerce Data Pipeline (`mini_project/`)
+Scraped product data from a sandbox e-commerce site, stored it in MySQL, then cleaned and visualized it with Pandas. Covers web scraping, database ingestion, feature engineering, and price distribution analysis.
 
 ---
 
@@ -283,7 +268,7 @@ End-to-end ML project for predicting loan approval. Covers data preprocessing, f
 * Fetched web pages using the **Requests** library
 * Parsed and extracted structured data from HTML using **BeautifulSoup**
 * Cleaned and organized scraped data into CSV format
-* Built multi-step scraping workflows across 4 activity notebooks
+* Built multi-step scraping workflows across activity notebooks
 
 ---
 
@@ -312,11 +297,6 @@ End-to-end ML project for predicting loan approval. Covers data preprocessing, f
 * [x] Probability Distributions
 * [x] Calculus Basics
 
-### SQL & Analytics
-* [x] SQL Queries
-* [x] Streaming Analytics Schema & Queries
-* [x] Data Aggregation
-
 ### Supervised ML
 * [x] Linear Regression
 * [x] Ridge, Lasso, ElasticNet
@@ -339,10 +319,8 @@ End-to-end ML project for predicting loan approval. Covers data preprocessing, f
 * [x] Anomaly Detection (Isolation Forest, LOF, DBSCAN)
 * [x] PCA
 
-
 ---
 
 # 👨‍💻 Author
 
-**Piyush Thakur** — learning ML/AI through consistent hands-on practice.
-Building toward real-world projects and deeper understanding of how these systems work.
+**Piyush Thakur** 
