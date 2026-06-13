@@ -172,8 +172,14 @@ Machine_Learning/
 │   │   ├── iris_kmeans.ipynb
 │   │   ├── K_mean_clustering.ipynb
 │   │   └── pca.ipynb
-│   └── datasets/
-│       └── thyroid_dataset.csv
+│   ├── datasets/
+│   │   └── thyroid_dataset.csv
+│   └── projects/
+│       └── SmartCart_Customer_Clustering/
+│           ├── dataset/
+│           │   └── smartcart_customers.csv
+│           └── notebook/
+│               └── smartcart.ipynb
 │
 └── README.md
 ```
@@ -255,11 +261,30 @@ Built core algorithms from scratch using only NumPy to understand the math behin
 
 # 🗄️ Projects
 
+## Supervised ML — Assignment Projects
+
+### 🏠 Assignment 1 — HomeVista House Price Prediction (`Supervised_ML/algorithms/house_price_prediction.ipynb`)
+Predict residential property sale prices for HomeVista Properties using **Linear Regression**. Covers preprocessing, feature encoding, and regression evaluation on property features like LotArea, YearBuilt, and OverallCond. Target: `SalePrice`.
+
+### 👔 Assignment 2 — TalentCore Employee Turnover Prediction (`Supervised_ML/algorithms/Employee_turnover.ipynb`)
+Predict whether an employee is likely to leave TalentCore Pvt. Ltd. Builds a baseline **Logistic Regression** model, then improves it with **L1 & L2 Regularization** and compares all three on 900 employee records. Target: `Employee_Turnover`.
+
+### 🌸 Assignment 3 — Iris Flower Species Classification (`Supervised_ML/algorithms/iris_flower.ipynb`)
+Automate plant identification for a botanical research centre by training and comparing **KNN**, **Logistic Regression**, and **Naive Bayes** — deliberately trained on 50% and tested on 100% to simulate real-world constraints. Target: `Species`.
+
+### 🛒 Assignment 4 — ShopSmart Purchase Intent Prediction (`Supervised_ML/algorithms/shop_smart.ipynb`)
+Predict whether a website visitor will make a purchase for ShopSmart using a **Decision Tree with pruning** on 12,330 user sessions. Handles class imbalance, evaluated on **F1 Score** (benchmark: 0.55). Target: `Revenue`.
+
+---
+
 ## 💳 CreditWise Loan System (`Supervised_ML/projects/CreditWise_Loan_System/`)
-End-to-end ML project for predicting loan approval. Covers data preprocessing, feature engineering, model training, and evaluation.
+Intelligent loan approval system for SecureTrust Bank to predict whether a loan should be Approved or Rejected. Covers EDA, missing value imputation, feature encoding, feature engineering (DTI_Ratio², Credit_Score²), and comparison of **Logistic Regression**, **KNN**, and **Naive Bayes** — Naive Bayes achieved the best precision. Target: `Loan_Approved`.
 
 ## 🛒 E-Commerce Data Pipeline (`mini_project/`)
 Scraped product data from a sandbox e-commerce site, stored it in MySQL, then cleaned and visualized it with Pandas. Covers web scraping, database ingestion, feature engineering, and price distribution analysis.
+
+## 🛍️ SmartCart Customer Clustering System (`Unsupervised_ML/projects/SmartCart_Customer_Clustering/`)
+Customer segmentation system for SmartCart (2,240 records, 22 features) to replace generic marketing with data-driven personalised strategies. Applies feature engineering, PCA for dimensionality reduction, and compares **KMeans vs Agglomerative Clustering** — Agglomerative (Ward linkage, K=4) produced the best-defined segments identified via Elbow Method and Silhouette Score.
 
 ---
 
@@ -311,6 +336,10 @@ Scraped product data from a sandbox e-commerce site, stored it in MySQL, then cl
 * [x] XGBoost (Classifier & Regressor)
 * [x] Voting & Stacking Ensembles
 * [x] Scratch Implementations (Linear Reg, Logistic Reg, KNN)
+* [x] Assignment 1 — House Price Prediction (Linear Regression)
+* [x] Assignment 2 — Employee Turnover Prediction (Logistic Regression + Regularization)
+* [x] Assignment 3 — Iris Species Classification (KNN vs Logistic Regression vs Naive Bayes)
+* [x] Assignment 4 — Purchase Intent Prediction (Decision Tree + Pruning, Imbalanced Data)
 
 ### Unsupervised ML
 * [x] K-Means Clustering
@@ -318,9 +347,10 @@ Scraped product data from a sandbox e-commerce site, stored it in MySQL, then cl
 * [x] Hierarchical Clustering
 * [x] Anomaly Detection (Isolation Forest, LOF, DBSCAN)
 * [x] PCA
+* [x] End-to-End Clustering Project (SmartCart Customer Segmentation)
 
 ---
 
 # 👨‍💻 Author
 
-**Piyush Thakur** 
+**Piyush Thakur**
